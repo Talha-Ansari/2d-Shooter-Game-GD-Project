@@ -1,0 +1,19 @@
+using UnityEngine;
+using UnityEditor.Audio;
+
+[System.Serializable]
+public class Sound
+{
+    public string name;
+    public AudioClip audioClip;
+
+    [Range(0f, 1f)]
+    public float volumn;
+    [Range(.1f, 3)]
+    public float pitch;
+
+    public bool loop;
+
+    [HideInInspector]
+    public AudioSource audioSource;
+}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e557b1658447c544d89f23c19582a1cc, type: 3}
+  m_Name: Advance Enemy
+  m_EditorClassIdentifier: 
+  speed: 250
+  dectetRange: 5
+  attackLayerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  rangeType: 1
+  bullet: {fileID: 6596538374939923651, guid: 76aa7e52a4f45454baa479f5234ae7fb, type: 3}
+  bulletSpeed: 1
+  upWordSpeed: 0
+  offsety: 0
+  fireRate: 0.5
+  useGravityOnBullet: 0
+  bulleRecived: 3

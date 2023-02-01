@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4157604791663433824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4157604791663433829}
+  - component: {fileID: 4157604791663433830}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4157604791663433829
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4157604791663433824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.64101, y: 1.9566305, z: 0.119158834}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4157604791663433830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4157604791663433824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f4ab1d5d479154da43e99e2f7906aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound:
+  - name: Theme
+    audioClip: {fileID: 8300000, guid: 24548ebfef2da0543b36f672b9444123, type: 3}
+    volumn: 0.266
+    pitch: 1
+    loop: 1
+    audioSource: {fileID: 0}
+  - name: hit
+    audioClip: {fileID: 8300000, guid: a45f0c944d00f904ba889591ecafeae9, type: 3}
+    volumn: 1
+    pitch: 1
+    loop: 0
+    audioSource: {fileID: 0}
+  - name: jump
+    audioClip: {fileID: 8300000, guid: 6a6d171306aa4124f9b70fe7e4b86563, type: 3}
+    volumn: 1
+    pitch: 1
+    loop: 0
+    audioSource: {fileID: 0}
+  - name: shoot
+    audioClip: {fileID: 8300000, guid: 1bbf073113ca49e48923f05fbb4d1aac, type: 3}
+    volumn: 1
+    pitch: 1
+    loop: 0
+    audioSource: {fileID: 0}
